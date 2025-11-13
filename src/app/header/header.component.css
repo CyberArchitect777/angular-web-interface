@@ -8,6 +8,11 @@ header {
     color: white;
 }
 
+header:hover {
+    cursor: pointer;
+    background-color: #0000cc;
+}
+
 h1 {
     font-family: "Trebuchet MS";
     padding: 20px;

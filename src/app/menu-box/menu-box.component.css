@@ -1,11 +1,21 @@
 
 .menu-box {
-    border: 1px solid #000;
-    padding: 10px;
-    margin: 10px;
-    background-color: lightblue;
+    padding: 15px 10px 30px;
+    margin: 20px 20px;
+    background-color: blue;
+    width: 200px;
+    height: 150px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 10px;
 }
 .menu-box p {
-    font-weight: bold;
     text-align: center;
+}
+
+.menu-box:hover {
+    cursor: pointer;
+    background-color: #0000cc;
 }
