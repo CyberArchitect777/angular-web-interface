@@ -1,8 +1,8 @@
-import { Component, input, Input } from '@angular/core';
+import { Component, Input } from '@angular/core';
 import { RouterModule } from '@angular/router';
 
 @Component({
-  selector: 'menu-box',
+  selector: 'app-menu-box',
   standalone: true,
   imports: [RouterModule],
   templateUrl: './menu-box.component.html',
